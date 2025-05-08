@@ -1,0 +1,9 @@
+>> hadoop fs -put Desktop/process.txt process.txt
+>> hadoop jar process.jar process.process process.txt dir16
+>> hadoop fs -cat dir16/part-r-00000
+
+
+Build Path to
+
+1. Build Path -> Add External Archives -> File System -> usr -> lib -> hadoop -> hadoop-common-2.60-cdh5.13.0.jar
+2. Build Path -> Add External Archives -> File System -> usr -> lib -> hadoop-0.20-mapreduce -> hadoop-core-2.60-cdh5.13.0.jar
